@@ -1,12 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    background-color: lightpink;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 .header-top {
     display: flex;
@@ -21,4 +22,35 @@ body {
     background-color: aquamarine;
     width: 700px;
     height: 200px;
+}
+
+.information {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
+.information-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    
+}
+ 
+.info-text {
+    text-align: center;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background-color: black;
 }
