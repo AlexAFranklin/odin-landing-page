@@ -3,12 +3,16 @@ body {
     flex-direction: column;
     margin: 0;  
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: stretch;
+    flex: 1 1 100%;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 70px 200px;  
+    padding: 20px 200px 70px 200px;  
+    flex-wrap: wrap;
+    flex: 1 1 100%;   
 }
 
 .logo {
@@ -20,6 +24,9 @@ body {
 .image-text {
     color: #f9faf8;
     font-size: 18px;
+    padding: 110px 130px;
+    background-color: rgb(110, 116, 124);
+    
 }
 
 a, .hero-sub-text {
@@ -38,6 +45,7 @@ a:visited {
 .links {
     display: flex;
     gap: 25px;
+    
 }
 
 h1 {
@@ -57,28 +65,29 @@ button {
     border-radius: 10px;
     font-weight: 600;
     margin: 15px 0px;
+    align-self: flex-start
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .header-body {
     display: flex;
     margin: 100px 0px 50px;
     justify-content: space-between;
-}
-.header-image {
-    background-color: rgb(110, 116, 124);
-    width: 530px;
-    align-self: stretch;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-left: 40px;
-    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100px;
+    margin-right: 60px; 
+}
 
 
 
@@ -89,7 +98,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 10px 150px 70px;  
+    padding: 10px 150px 120px;  
 }
 h2 {
     text-align: center;
@@ -131,21 +140,28 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     margin: 0px; 
     background-color: #e5e7eb;
-    padding: 10px 300px 70px;  
+    padding: 130px 300px 106px;  
 }
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: rgb(52, 59, 71);
-    padding-left: 40px;
+    padding: 0px;
     margin: 0px;
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .quote-att {
     align-self: flex-end;
+    margin: 0px;
+    padding: 0px 50px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 
