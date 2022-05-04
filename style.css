@@ -25,8 +25,7 @@ body {
     color: #f9faf8;
     font-size: 18px;
     padding: 110px 130px;
-    background-color: rgb(110, 116, 124);
-    
+    background-color: rgb(110, 116, 124); 
 }
 
 a, .hero-sub-text {
@@ -44,8 +43,7 @@ a:visited {
 
 .links {
     display: flex;
-    gap: 25px;
-    
+    gap: 25px; 
 }
 
 h1 {
@@ -89,18 +87,13 @@ button {
     margin-right: 60px; 
 }
 
-
-
-
-
-
-
 .information {
     display: flex;
     flex-direction: column;
     padding: 10px 200px 110px;  
     flex: 1;
 }
+
 h2 {
     text-align: center;
     font-size: 36px;
@@ -127,7 +120,6 @@ h2 {
     font-size: 18px;
     margin-top: 5px; 
     flex-shrink: 0;
-    
 }
 
 .box {
@@ -135,23 +127,17 @@ h2 {
     width: 160px;
     border: 4px solid #3882f6;
     border-radius: 15px;
-    flex-shrink: 0;
-    
+    flex-shrink: 0;  
 }
-
-
-
-
-
 
 .quote-box {
     display: flex;
     flex-direction: column;
     margin: 0px; 
     background-color: #e5e7eb;
-    padding: 130px 330px 86px;  
-   
+    padding: 130px 330px 86px;   
 }
+
 .quote {
     font-size: 36px;
     font-weight: 300;
@@ -159,39 +145,54 @@ h2 {
     color: rgb(52, 59, 71);
     padding: 0px;
     margin: 0px;
-    flex-shrink: 0;
-    
-    
+    flex-shrink: 0;  
 }
+
 .quote-att {
     align-self: flex-end;
     padding: 0px;
     margin: 15px;
     font-size: 24px;
     font-weight: 600;
-    flex: 1;
-    
+    flex: 1; 
 }
-
-
 
 
 
 
 .call-box {
     display: flex;
-    background-color: bisque;
-    padding: 20px 40px;
-    margin: 30px 50px;
+    background-color: #3882f6;
+    padding: 40px 110px;
+    margin: 105px 210px;
     justify-content: space-between;
     align-items: center;
-
+    border-radius: 10px;
 }
+
+.call-button {
+    border: #f9faf8 solid 2px;
+}
+
+.sign-up {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 250; 
+    filter: contrast(80%);
+    margin: 0px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    margin: 0px;
+}
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
 }
 
 .header, .footer {
