@@ -154,9 +154,6 @@ h2 {
     flex: 1; 
 }
 
-
-
-
 .call-box {
     display: flex;
     background-color: #3882f6;
@@ -190,8 +187,7 @@ h4 {
 .footer {
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 
 .copyright {
@@ -203,7 +199,6 @@ h4 {
 }
 
 .header, .footer {
-    background-color: #1F2937;
-    
+    background-color: #1F2937;  
 }
 
