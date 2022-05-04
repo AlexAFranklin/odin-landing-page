@@ -168,6 +168,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .call-button {
@@ -193,6 +194,15 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+   
+}
+
+.copyright {
+    padding: 40px;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0; 
+    filter: contrast(70%);
 }
 
 .header, .footer {
