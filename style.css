@@ -151,7 +151,8 @@ h2 {
     align-items: flex-end;
     margin: 0px; 
     background-color: #e5e7eb;
-    padding: 130px 300px 106px;  
+    padding: 130px 330px 86px;  
+   
 }
 .quote {
     font-size: 36px;
@@ -160,16 +161,19 @@ h2 {
     color: rgb(52, 59, 71);
     padding: 0px;
     margin: 0px;
-    width: 780px;
-    display: flex;
-    flex-wrap: wrap;
+    height: 150px;
+    flex-shrink: 0;
+    
+    
 }
 .quote-att {
     align-self: flex-end;
-    margin: 0px;
-    padding: 0px 50px;
+    padding: 0px;
+    margin: 15px;
     font-size: 24px;
     font-weight: 600;
+    flex: 1;
+    
 }
 
 
