@@ -147,8 +147,6 @@ h2 {
 .quote-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
     margin: 0px; 
     background-color: #e5e7eb;
     padding: 130px 330px 86px;  
@@ -161,7 +159,6 @@ h2 {
     color: rgb(52, 59, 71);
     padding: 0px;
     margin: 0px;
-    height: 150px;
     flex-shrink: 0;
     
     
